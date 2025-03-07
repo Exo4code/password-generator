@@ -1,0 +1,107 @@
+body {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+
+.container {
+    width: 100%;
+    max-width: 650px;
+    background: rgba(6, 141, 117, 0.2);
+    border-radius: 16px;
+    box-shadow: 0px 1px 10px cyan;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(6, 141, 117, 0.3);
+    padding: 110px 40px;
+    box-sizing: border-box;
+    text-align: left;
+}
+
+
+.texts {
+    text-align: left;
+    color: rgba(255, 255, 255, 0.754);
+}
+
+h1 {
+    margin: 0;
+    font-size: 32px;
+    color: cadetblue;
+
+}
+
+h2 {
+    margin: 0;
+    text-shadow: 2px 1px 0px rgb(0, 91, 105);
+    font-size: 32px;
+    color: rgba(255, 255, 255, 0.754);
+}
+
+p {
+    font-weight: bold;
+}
+.gen-btn {
+    margin-top: 44px;
+    padding: 10px 12px;
+    font-size: 16px;
+    background: rgba(7, 160, 112, 0.858);
+    color: rgba(255, 255, 255, 0.754);
+    text-shadow: 1px 1px 0px black;
+    border-radius: 4px;
+    border: 1px solid  rgba(9, 188, 131, 0.858) ;
+}
+
+.gen-btn:hover {
+    background: rgba(7, 160, 112, 0.95);
+
+}
+
+.gen-btn:active {
+    background: linear-gradient(rgb(3, 68, 33), rgb(19, 173, 130));
+}
+
+hr {
+    margin-top: 22px;
+    box-shadow: 0px 1px 10px cyan;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.407);
+}
+
+.password-wrapper {
+    margin-top: 44px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.pw-btn {
+    min-width: 190px;
+    min-height: 50px;
+    background: linear-gradient(rgb(3, 68, 33), rgb(2, 60, 62));
+    border: 1px solid rgba(6, 141, 117, 0.3);
+    border-radius: 4px;
+    color: rgb(16, 255, 4);
+    text-shadow: 1px 1px 0px black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+}
+
+.pw-btn:hover {
+    background: linear-gradient(rgb(3, 68, 33), rgb(2, 127, 132));
+}
+
+.pw-btn:active {
+    background: linear-gradient(rgb(3, 68, 33), rgb(19, 173, 130));
+}
